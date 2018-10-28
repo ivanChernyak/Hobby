@@ -1,6 +1,6 @@
 package com.ivan.chernyak;
 
-public class Hobby {
+public abstract class Hobby {
     private String name;
     private int hours;
 
@@ -33,10 +33,8 @@ public class Hobby {
         this.hours = hours;
     }
 
-    public String tellAboutHobby() {
-        return "Name - " + name + "; Hours - " + hours;
-    }
-    
+    public abstract String tellAboutHobby();
+
     public String anotherTellAboutHobby(){
         return "This is another method for second commit!";
     }

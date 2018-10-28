@@ -72,7 +72,7 @@
             <archive>
               <manifest>
                 <mainClass>
-                  com.ivan.chernyak.App
+                  com.ivan.chernyak.hobbys.Main
                 </mainClass>
               </manifest>
             </archive>
