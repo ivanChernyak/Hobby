@@ -36,4 +36,8 @@ public class Hobby {
     public String tellAboutHobby() {
         return "Name - " + name + "; Hours - " + hours;
     }
+    
+    public String anotherTellAboutHobby(){
+        return "This is another method for second commit!";
+    }
 }
