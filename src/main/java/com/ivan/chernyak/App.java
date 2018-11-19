@@ -1,12 +1,21 @@
 package com.ivan.chernyak;
 
-import org.apache.log4j.Logger;
+//import com.ivan.chernyak.hobbies.Reading;
+//import org.apache.log4j.Logger;
 
-public class App {
+/**
+ * This class is created for the test.
+ */
+public final class App {
 
-    final static Logger lOG = Logger.getLogger(App.class);
+//    final static Logger LOG = Logger.getLogger(App.class);
 
-    public static void main( String[] args ) {
+    /**
+     * This method is created for the test.
+     *
+     * @param args command line arguments.
+     */
+    public static void main(final String[] args) {
 //        Hobby hobby1 = new Hobby("Ivan", 12);
 //
 //        Hobby hobby2 = new Hobby("Olha");
@@ -16,7 +25,13 @@ public class App {
 //        hobby3.setName("Boris");
 //
 //        System.out.println("Obj 1 - " + hobby1.tellAboutHobby());
-//        lOG.debug("hobby2\n" + hobby2.tellAboutHobby());
+//        LOG.debug("hobby2\n" + hobby2.tellAboutHobby());
 //        System.out.println("Obj 3 - " + hobby3.tellAboutHobby());
+    }
+
+    /**
+     * Private constructor.
+     */
+    private App() {
     }
 }
